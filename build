@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "set arch and cross-compiler"
 export TOPDIR=$(cd $(dirname "$0"); pwd)
 export MY_ARCH=arm
@@ -8,6 +10,12 @@ export MY_KERNEL_VERSION=3.0.8
 
 read -p "get into this directory"
 cd $TOPDIR
+
+read -p "cleanup compiled files from last run"
+cd compiled
+rm -f -r modules
+mkdir -p modules
+rm zImage
 
 read -p "go into kernel directory"
 cd kernel

@@ -3,10 +3,10 @@ This contains kernel sources for the Xperia phones on fuji board, Xperia S, Xper
 The build.sh script can take you from source to flashable in a single line command
 
 For Xperia S
-	./build.sh nozomi
+	./build nozomi
 
 For Xperia Acro S (Acro HD)
-	./build.sh hikari
+	./build hikari
 
 The folders and their contents are 
 
