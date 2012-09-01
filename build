@@ -32,7 +32,7 @@ read -p "change configurations if needed"
 ARCH=${MY_ARCH} CROSS_COMPILE=${MY_CROSS_COMPILE} make menuconfig
 
 read -p "compile the kernel"
-ARCH=${MY_ARCH} CROSS_COMPILE=${MY_CROSS_COMPILE} make -j6
+ARCH=${MY_ARCH} CROSS_COMPILE=${MY_CROSS_COMPILE} make -j8
 
 read -p "pull out kernel into compiled directory"
 cd $TOPDIR
