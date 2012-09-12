@@ -1,0 +1,17 @@
+This contains kernel sources for the Xperia phones on fuji board, Xperia S, Xperia Acro S etc
+
+The build.sh script can take you from source to flashable in a single line command
+
+For Xperia S
+	./build nozomi
+
+For Xperia Acro S (Acro HD)
+	./build hikari
+
+The folders and their contents are 
+
+ compiled     - compiled kernel/modules/ramdisk/rpm
+ kernel       - linux kernel source tree
+ vendor       - vendor (broadcomm wlan) source tree
+ buildtools   - arm toolchain, mkelf script and other building tools
+ ramdisk      - ramdisk (initially imported from stock kernel)

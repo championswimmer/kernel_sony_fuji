@@ -1,0 +1,5 @@
+This folder contains binaries/sources/tools/programs needed for compiling and deploying the kernel.
+The files kept here are acquired through open-source channels, but they are not mine.
+The toolchain is from AOSP and mkelf is from Sony Developer World.
+As per concerned licenses I am eligible to keep them in my git, but please check out rights/license issues before redistributing them.
+(I use them ONLY as tools and for purposes of compiling and deploying the kernel) 
